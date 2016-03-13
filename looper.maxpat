@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 175.0, 230.0, 1276.0, 812.0 ],
+		"rect" : [ 173.0, 225.0, 1276.0, 812.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -124,8 +124,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 103.5, 64.0, 110.0, 29.0 ],
 					"style" : "",
-					"text" : "notes",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "notes"
 				}
 
 			}
@@ -916,6 +915,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-50",
@@ -923,11 +923,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 846.5, 610.0, 129.0, 22.0 ],
+					"patching_rect" : [ 846.5, 610.0, 138.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.0, 445.0, 129.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 204.0, 445.0, 129.0, 35.0 ],
 					"style" : "",
-					"text" : "buffer~ Sample1 9000"
+					"text" : "buffer~ Sample1 50000"
 				}
 
 			}
