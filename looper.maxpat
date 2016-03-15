@@ -38,6 +38,33 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1067.0, 261.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1026.0, 261.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -919,16 +946,17 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-50",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 846.5, 610.0, 138.0, 22.0 ],
+					"patching_rect" : [ 846.5, 610.0, 138.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 204.0, 445.0, 129.0, 35.0 ],
 					"style" : "",
-					"text" : "buffer~ Sample1 50000"
+					"text" : "buffer~ Sample1 500000"
 				}
 
 			}
@@ -940,6 +968,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 987.5, 132.0, 987.5, 132.0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1076.5, 288.0, 1062.0, 288.0, 1062.0, 255.0, 1035.5, 255.0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -1465,6 +1503,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 218.5, 354.0, 366.0, 354.0, 366.0, 282.0, 963.0, 282.0, 963.0, 255.0, 1076.5, 255.0 ],
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1510,6 +1558,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 350.5, 69.0, 327.0, 69.0, 327.0, 30.0, 461.5, 30.0 ],
 					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1035.5, 285.0, 990.0, 285.0, 990.0, 291.0, 987.5, 291.0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
