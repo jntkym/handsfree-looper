@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 105.0, 130.0, 1276.0, 912.0 ],
+		"rect" : [ 150.0, 124.0, 1276.0, 912.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1507,6 +1507,26 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 441.0, 693.0, 465.0, 693.0, 465.0, 636.0, 816.0, 636.0, 816.0, 813.0, 866.5, 813.0 ],
+					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 415.0, 693.0, 384.0, 693.0, 384.0, 813.0, 840.5, 813.0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1891,6 +1911,26 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 62.5, 693.0, 45.0, 693.0, 45.0, 705.0, 44.5, 705.0 ],
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 88.5, 693.0, 108.0, 693.0, 108.0, 606.0, 858.0, 606.0, 858.0, 591.0, 907.5, 591.0 ],
+					"source" : [ "obj-52", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 62.5, 693.0, 39.0, 693.0, 39.0, 606.0, 858.0, 606.0, 858.0, 591.0, 881.5, 591.0 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
